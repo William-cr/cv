@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: lightgrey;
+}
+
+.container {
+  height: 100%;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header__titlebox {
+  width: 100%;
+}
+
+.header__subtitlebox {
+  width: 100%;
+  text-align: right;
+}
+
+.header__title {
+  margin: 24px;
+  text-align: center;
+}
+
+.header__subtitle {
+  margin: 12px;
+  text-align: center;
+  font-style: italic;
+  color: #333;
+}
+
+.bio {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bio__phtoto {
+  padding: 10px;
+  width: 100%;
+}
+
+.bio__description {
+  padding: 22px;
+  width: 100%;
+} 
+ 
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery__item {
+  padding: 12px;
+  width: 100%;
+}
+
+
+.thumbnail {
+  padding: 12px;
+  width: 100%;
+}
+
+.photo {
+  width: 100%;
+}
+
+.container2 {
+  height: 100%;
+}
+
+.title {
+  margin: 12px;
+  text-align: center;
+  color: #333;
+}
+
+.pictures {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pictures__guitare {
+  padding: 12px;
+  width: 100%;
+}
+
+.pictures__cinema {
+  padding: 12px;
+  width: 100%;
+}
+
+.pictures__vg {
+  padding: 12px;
+  width: 100%;
+}
+
+  .photo {
+  width: 100%;
+}
+
+.container3 {
+  height: 100%;
+}
+
+.title {
+  margin: 12px;
+  text-align: center;
+  color: #333;
+}
+
+.icone {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.icone__EPIL {
+  padding: 12px;
+  width: 100%;
+}
+
+.icone__udacity {
+  padding: 12px;
+  width: 100%;
+}
+
+@media screen and (min-width: 360px) {
+
+	.header__titlebox {
+	  width: 50%;
+	}
+
+	.header__subtitlebox {
+	  width: 50%;
+	}
+
+  .pictures__guitare {
+    width: 22%
+  }
+
+  .pictures__cinema {
+    width: 30%
+  }
+
+  .pictures__vg {
+    width: 28%
+  }
+
+  .icone__EPIL {
+    width: 50%
+  }
+
+  .icone__udacity {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 600px) {
+
+	.bio__photo{
+	  width: 30%;
+	}
+
+	.bio__description {
+	  width: 60%;
+	}
+	.gallery__item{
+		width: 45%;
+	}
+  .pictures__guitare {
+    width: 22%
+  }
+
+  .pictures__cinema {
+    width: 25%
+  }
+
+  .pictures__vg {
+    width: 35%
+  }
+  .icone__EPIL {
+    width: 50%
+  }
+
+  .icone__udacity {
+    width: 40%;
+  }
+}
+@media screen and (min-width: 800px) {
+
+	.gallery__item{
+		width: 30%;
+	}
+  .pictures__guitare {
+    width: 22%
+  }
+
+  .pictures__cinema {
+    width: 30%
+  }
+
+  .pictures__vg {
+    width: 35%
+  }
+  .icone__EPIL {
+    width: 50%
+  }
+
+  .icone__udacity {
+    width: 40%;
+  }
+}
+@media screen and (min-width: 1000px) {
+
+	.container {
+		max-width: 1024px;
+		margin: 0 auto;
+	}
+  .container2 {
+    max-width: 1024px;
+    margin: 0 auto;
+  }  
+  .container3 {
+    max-width: 1024px;
+    margin: 0 auto;
+  }  
+}
